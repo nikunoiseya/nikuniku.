@@ -1,0 +1,51 @@
+@import url('common.css');
+
+body {
+    background-color: white;
+}
+
+#navAndTitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#storeTopImage {
+    position: relative;
+    width: 100%;
+    height: 500px;  /* ホーム画面のトップ画像の高さに合わせて調整してください */
+    z-index: 1;
+}
+
+#storeImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 10;
+}
+
+#storeInfo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 100px); 
+    padding: 20px;
+    background-color: white;
+    z-index: 20;
+}
+
+#storeInfoImage {
+    width: 80%;  /* 必要に応じて調整してください */
+    z-index: 20;
+}

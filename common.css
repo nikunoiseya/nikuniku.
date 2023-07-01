@@ -1,0 +1,31 @@
+#navAndTitle {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明の黒色 */
+}
+
+#navList {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 70px;
+}
+
+#navList li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#navList li a:hover {
+    color: gold;
+}
+
+#titleLogo {
+    width: 200px;
+    height: auto;
+}
